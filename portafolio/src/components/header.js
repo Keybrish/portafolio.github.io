@@ -3,10 +3,14 @@
 import image from '../assets/banner.png';
 import imageMenu from '../assets/header.png';
 import imageIcon from '../assets/iconv2.png';
-import info from '../assets/info.png';
-import me from '../assets/me.png';
 import degradado from '../assets/degradado.png';
 import PointsIcon from '../Icons/pointsIcon';
+import EmailIcon from '../Icons/emailIcon';
+import LocationIcon from '../Icons/locationIcon';
+import GithubIcon from '../Icons/githubIcon';
+import LinkedinIcon from '../Icons/linkedinIcon';
+import TwitterIcon from '../Icons/twitterIcon';
+import InstagramIcon from '../Icons/instagramIcon';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function header() {
@@ -33,6 +37,22 @@ function header() {
 
     const redirectToCV = () => {
         window.location.href = 'https://drive.google.com/file/d/1rLqd-GMD8Hvwv6WF5ET5x1XgkgFZWZzp/view?usp=sharing';
+    };
+
+    const redirectToGitHub = () => {
+        window.location.href = 'https://github.com/Keybrish';
+    };
+
+    const redirectToLinkedIn = () => {
+        window.location.href = 'https://www.linkedin.com/in/keybrish-zamora-4a9b392a7/';
+    };
+
+    const redirectToTwitter = () => {
+        window.location.href = 'https://twitter.com/keybrish';
+    };
+
+    const redirectToInstagram = () => {
+        window.location.href = 'https://www.instagram.com/keybrish_zm/';
     };
 
   return (
@@ -164,12 +184,36 @@ function header() {
             <div class="progress-bar" style={{width: '75%', backgroundColor: '#009fe5'}}></div>
         </div>
 
-        <h2>Contacto</h2>
-        Me pueden contactar a través de las siguientes redes:
-        LinkedIn: https://www.linkedin.com/in/keybrish-zamora-4a9b392a7/
-        X: https://twitter.com/keybrish
-        Instagram: https://www.instagram.com/keybrish_zm/
-        Gmail: keychanpa@gmail.com
+        <div style={{height: '200px', width: '100%', background: '#292928', padding: '250px', paddingTop: '25px', paddingBottom: '200px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+            <div style={{display: 'flex', flexDirection: 'column'}}>
+                <img src={imageIcon} style={{height: '75px', width: '75px', marginTop: '3px', borderRadius: '100%'}} alt='' />
+                <div style={{display: 'flex', flexDirection: 'row'}}>
+                    <EmailIcon fill={'#009fe5'} style={{marginTop: '20px'}} />
+                    <p style={{color: 'white', fontSize: '12px', marginTop: '19px', marginLeft: '10px'}}>keychanpa@gmail.com</p>
+                </div>
+                <div style={{display: 'flex', flexDirection: 'row'}}>
+                    <LocationIcon fill={'#009fe5'} style={{marginTop: '4px'}} />
+                    <p style={{color: 'white', fontSize: '12px', marginTop: '5px', marginLeft: '10px'}}>Ambato, Ecuador</p>
+                </div>
+            </div>
+            <div style={{display: 'flex', flexDirection: 'column', marginLeft: '300px'}}>
+                <p style={{color: 'white'}}><b>Secciones</b></p>
+                <p style={{color: 'white', fontSize: '12px'}}>Inicio</p>
+                <p style={{color: 'white', fontSize: '12px'}}>Sobre mí</p>
+                <p style={{color: 'white', fontSize: '12px'}}>Portafolio</p>
+                <p style={{color: 'white', fontSize: '12px'}}>Contacto</p>
+            </div>
+
+            <div style={{display: 'flex', flexDirection: 'column'}}>
+                <p style={{color: 'white'}}><b>Redes sociales</b></p>
+                <div style={{display: 'flex', flexDirection: 'row'}}>
+                    <GithubIcon fill={'white'} onClick={redirectToGitHub}/>
+                    <LinkedinIcon fill={'white'} style={{marginLeft: '15px'}} onClick={redirectToLinkedIn}/>
+                    <TwitterIcon fill={'white'} style={{marginLeft: '15px'}} onClick={redirectToTwitter}/>
+                    <InstagramIcon fill={'white'} style={{marginLeft: '15px'}} onClick={redirectToInstagram}/>
+                </div>
+            </div>
+        </div>
 
     </div>
   );
