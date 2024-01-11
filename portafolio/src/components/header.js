@@ -27,19 +27,24 @@ function header() {
         </div>
         <img src={degradado} alt='' style={{width: '100%', marginTop: '12px',marginBottom: '15px'}} />
         <img src={image} alt='' style={{width: '100%'}} />
+        <div style={{display: 'flex', flexDirection: 'row'}}>
+            <div style={{width: '50%'}}>
+            <h2>Sobre mí</h2>
+            <p style={{textAlign: 'justify'}}>Mi interés en el mundo tenológico va en aumento cada día que pasa, mi pasión se encuentra en crear grandes experiencias en los usuarios a través del desarrollo frontend. Mi enfoque se centra en el diseño de cada aplicación web y móvil que tengo la oportunidad de construir. </p>
+            <p style={{textAlign: 'justify'}}>A pesar de mi enfoque principal en el frontend, también tengo sólidos conocimientos en desarrollo backend. Esta combinación de habilidades me permite no solo diseñar interfaces agradables, sino también crear bases sólidas y eficientes que sustentan el funcionamiento impecable de las aplicaciones. </p>
+            <p style={{textAlign: 'justify'}}>Mi experiencia se basa en diversos proyectos, desde iniciativas personales hasta problemas planteados por la universidad a la que pertenezco. Estos proyectos son los que me han permitido explorar nuevas tecnologías, utilizar distintas metodologías y enfrentar desafíos complejos con creatividad y determinación. </p>
+</div>
+<div>
+            <h2>Tecnologías</h2>
+            <p>Varias herramientas que he utilizado a lo largo de mi aprendizaje son:</p>
+            <p>Lenguajes: Python, JavaScript, TypeScript, Java, PHP <br/>
+            Frameworks: React, React Native, Angular, Node.js, Bootstrap <br/>
+            Bases de datos: MySQL, Firebase, SQL Server, Oracle, MongoDB<br/>
+            Gestores de proyectos: Jira, Asana, Trello, ClickUp<br/>
+            Herramientas de diseño: Figma, Adobe XD, Photoshop</p>
+            </div>
 
-        <h2>Sobre mí</h2>
-        <p>Mi interés en el mundo tenológico va en aumento cada día que pasa, mi pasión se encuentra en crear grandes experiencias en los usuarios a través del desarrollo frontend. Mi enfoque se centra en el diseño de cada aplicación web y móvil que tengo la oportunidad de construir. </p>
-        <p>A pesar de mi enfoque principal en el frontend, también tengo sólidos conocimientos en desarrollo backend. Esta combinación de habilidades me permite no solo diseñar interfaces agradables, sino también crear bases sólidas y eficientes que sustentan el funcionamiento impecable de las aplicaciones. </p>
-        <p>Mi experiencia se basa en diversos proyectos, desde iniciativas personales hasta problemas planteados por la universidad a la que pertenezco. Estos proyectos son los que me han permitido explorar nuevas tecnologías, utilizar distintas metodologías y enfrentar desafíos complejos con creatividad y determinación. </p>
-
-        <h2>Tecnologías</h2>
-        Varias herramientas que he utilizado a lo largo de mi aprendizaje son:
-        Lenguajes: Python, JavaScript, TypeScript, Java, PHP
-        Frameworks: React, React Native, Angular, Node.js, Bootstrap
-        Bases de datos: MySQL, Firebase, SQL Server, Oracle, MongoDB
-        Gestores de proyectos: Jira, Asana, Trello, ClickUp
-        Herramientas de diseño: Figma, Adobe XD, Photoshop
+        </div>
 
         <h2>Portafolio</h2>
         Entre los proyectos que considero que destacan mejor mis habilidades están:
