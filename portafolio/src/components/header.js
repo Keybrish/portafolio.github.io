@@ -151,7 +151,7 @@ function header() {
         <div class="card" style={{width: '18rem', marginRight: '100px', background: '#292928', color: 'white'}}>
             <div class="card-body" style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
                 <h6 class="card-subtitle mb-2" style={{color: 'white'}}>Para ver más proyectos de aplicaciones móviles puedes visitar mi perfil de GitHub...</h6>
-                <button type="button" class="btn btn-dark" style={{backgroundColor: '#434343'}} onClick={redirectToGitSocio}>Ver perfil...</button>
+                <button type="button" class="btn btn-dark" style={{backgroundColor: '#434343'}} onClick={redirectToGitHub}>Ver perfil...</button>
             </div>
         </div>
         </div>
@@ -178,7 +178,7 @@ function header() {
                 <div class="card" style={{width: '18rem', marginRight: '100px', background: '#292928', color: 'white'}}>
             <div class="card-body" style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
                 <h6 class="card-subtitle mb-2" style={{color: 'white'}}>Para ver más proyectos de sistemas web puedes visitar mi perfil de GitHub...</h6>
-                <button type="button" class="btn btn-dark" style={{backgroundColor: '#434343'}} onClick={redirectToGitSocio}>Ver perfil...</button>
+                <button type="button" class="btn btn-dark" style={{backgroundColor: '#434343'}} onClick={redirectToGitHub}>Ver perfil...</button>
             </div>
         </div>
             </div>
