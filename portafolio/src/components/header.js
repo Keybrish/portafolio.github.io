@@ -27,6 +27,10 @@ function header() {
         window.location.href = 'https://github.com/Keybrish/pizza';
     };
 
+    const redirectToGitTabla = () => {
+        window.location.href = 'https://github.com/ArmijosThais/ProyectoEconomia';
+    };
+
     const redirectToCV = () => {
         window.location.href = 'https://drive.google.com/file/d/1rLqd-GMD8Hvwv6WF5ET5x1XgkgFZWZzp/view?usp=sharing';
     };
@@ -94,7 +98,7 @@ function header() {
         <div style={{ textAlign: 'center' }}>
         <p style={{margin: 'auto', width: '20%'}}>Entre los proyectos que considero que destacan mejor mis habilidades están:</p>
         </div>
-        <div style={{display: 'flex', flexDirection: 'row'}}>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <div style={{widht: '50%', padding: '75px'}}>
                     <h4 class="card-title" style={{marginTop: '0px', marginBottom: '20px'}}><span style={{background: '#009fe5', color: '#fff', borderRadius: '50%', display: 'inline-block', textAlign: 'center', width: '35px', height: '35px', padding: '2px', boxShadow: '0 0 6px 0 rgba(0, 0, 0, .5)', marginRight: '15px', alignItems: 'center', fontSize: '16px', paddingTop: '7px'}}>1.1</span>Aplicaciones móviles</h4>
 
@@ -120,18 +124,28 @@ function header() {
         </div>
         </div>
         </div>
-        <div style={{widht: '50%', padding: '75px'}}>
+        <div style={{widht: '50%', padding: '75px', paddingTop: '0px'}}>
 
                     <h4 class="card-title" style={{marginTop: '0px', marginBottom: '20px'}}><span style={{background: '#009fe5', color: '#fff', borderRadius: '50%', display: 'inline-block', textAlign: 'center', width: '35px', height: '35px', padding: '2px', boxShadow: '0 0 6px 0 rgba(0, 0, 0, .5)', marginRight: '15px', alignItems: 'center', fontSize: '16px', paddingTop: '7px'}}>1.2</span>Sistemas web</h4>
 
-        <div class="card" style={{width: '18rem', background: '#292928', color: 'white'}}>
+<div style={{display: 'flex', flexDirection: 'row'}}>
+        <div class="card" style={{width: '18rem', marginRight: '100px', background: '#292928', color: 'white'}}>
             <div class="card-body">
                 <h5 class="card-title">MANGIONA</h5>
                 <h6 class="card-subtitle mb-2" style={{color: 'white'}}>Un solo rol</h6>
                 <p class="card-text">Sistema web que gestiona pedidos de pizzas.</p>
                 <button type="button" class="btn btn-dark" style={{backgroundColor: '#434343'}} onClick={redirectToGitMangiona}>Ver proyecto</button>
             </div>
-        </div>        
+        </div>
+        <div class="card" style={{width: '18rem'}}>
+            <div class="card-body">
+                <h5 class="card-title">Tablas de amortización</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Un solo rol</h6>
+                <p class="card-text">Sistema web que simula tablas de amortización para los distintos créditos.</p>
+                <button type="button" class="btn btn-light" onClick={redirectToGitTabla}>Ver proyecto</button>
+            </div>
+        </div>  
+        </div>
 </div>
         </div>
 
