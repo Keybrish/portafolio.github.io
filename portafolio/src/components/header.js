@@ -68,10 +68,10 @@ function header() {
             </div>
             <img src={imageIcon} style={{height: '45px', marginTop: '3px', borderRadius: '100%'}} alt='' />
             <ul style={{ display: 'flex', flexDirection: 'row', listStyleType: 'none', padding: 0, justifyContent: 'end' }}>
-                <li style={{marginRight: '35px', color: '#2d2d2c', marginTop: '10px'}}><b>Inicio</b></li>
-                <li style={{marginRight: '35px', color: '#2d2d2c', marginTop: '10px'}}><b>Sobre mí</b></li>
-                <li style={{marginRight: '35px', color: '#2d2d2c', marginTop: '10px'}}><b>Portafolio</b></li>
-                <li style={{marginRight: '100px', color: '#2d2d2c', marginTop: '10px'}}><b>Contacto</b></li>
+                <a href='#' style={{marginRight: '35px', color: '#2d2d2c', marginTop: '10px', textDecoration: 'none'}}><b>Inicio</b></a>
+                <a href='#about' style={{marginRight: '35px', color: '#2d2d2c', marginTop: '10px', textDecoration: 'none'}}><b>Sobre mí</b></a>
+                <a href='#portafolio' style={{marginRight: '35px', color: '#2d2d2c', marginTop: '10px', textDecoration: 'none'}}><b>Portafolio</b></a>
+                <a href='#contacto' style={{marginRight: '100px', color: '#2d2d2c', marginTop: '10px', textDecoration: 'none'}}><b>Contacto</b></a>
             </ul>
         </div>
         <img src={degradado} alt='' style={{width: '100%', marginTop: '12px',marginBottom: '15px'}} />
@@ -81,7 +81,7 @@ function header() {
             <div class="progress-bar" style={{width: '25%', backgroundColor: '#009fe5'}}></div>
         </div>
 
-        <div style={{display: 'flex', flexDirection: 'row'}}>
+        <div id='about' style={{display: 'flex', flexDirection: 'row'}}>
             <div style={{width: '50%', padding: '75px'}}>
             <h4 class="card-title" style={{marginBottom: '25px'}}><span style={{background: '#009fe5', color: '#fff', borderRadius: '50%', display: 'inline-block', textAlign: 'center', width: '35px', height: '35px', padding: '2px', boxShadow: '0 0 6px 0 rgba(0, 0, 0, .5)', marginRight: '15px', alignItems: 'center', fontSize: '16px', paddingTop: '7px'}}>1</span>Sobre mí</h4>
             <div class="card">
@@ -114,7 +114,7 @@ function header() {
             <div class="progress-bar" style={{width: '50%', backgroundColor: '#009fe5'}}></div>
         </div>
 
-        <h4 class="card-title" style={{display: 'flex', justifyContent: 'center'}}>Portafolio</h4>
+        <h4 id='portafolio' class="card-title" style={{display: 'flex', justifyContent: 'center'}}>Portafolio</h4>
         <div style={{ textAlign: 'center' }}>
         <p style={{margin: 'auto', width: '20%'}}>Entre los proyectos que considero que destacan mejor mis habilidades están:</p>
         </div>
@@ -184,7 +184,7 @@ function header() {
             <div class="progress-bar" style={{width: '75%', backgroundColor: '#009fe5'}}></div>
         </div>
 
-        <div style={{height: '200px', width: '100%', background: '#292928', padding: '250px', paddingTop: '25px', paddingBottom: '200px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+        <div id='contacto' style={{height: '200px', width: '100%', background: '#292928', padding: '250px', paddingTop: '25px', paddingBottom: '200px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
             <div style={{display: 'flex', flexDirection: 'column'}}>
                 <img src={imageIcon} style={{height: '75px', width: '75px', marginTop: '3px', borderRadius: '100%'}} alt='' />
                 <div style={{display: 'flex', flexDirection: 'row'}}>
@@ -198,10 +198,10 @@ function header() {
             </div>
             <div style={{display: 'flex', flexDirection: 'column', marginLeft: '300px'}}>
                 <p style={{color: 'white'}}><b>Secciones</b></p>
-                <p style={{color: 'white', fontSize: '12px'}}>Inicio</p>
-                <p style={{color: 'white', fontSize: '12px'}}>Sobre mí</p>
-                <p style={{color: 'white', fontSize: '12px'}}>Portafolio</p>
-                <p style={{color: 'white', fontSize: '12px'}}>Contacto</p>
+                <a href='#' style={{color: 'white', fontSize: '12px', textDecoration: 'none', marginTop: '5px'}}>Inicio</a>
+                <a href='#about' style={{color: 'white', fontSize: '12px', textDecoration: 'none', marginTop: '10px'}}>Sobre mí</a>
+                <a href='#portafolio' style={{color: 'white', fontSize: '12px', textDecoration: 'none', marginTop: '10px'}}>Portafolio</a>
+                <a href='#contacto' style={{color: 'white', fontSize: '12px', textDecoration: 'none', marginTop: '10px'}}>Contacto</a>
             </div>
 
             <div style={{display: 'flex', flexDirection: 'column'}}>
