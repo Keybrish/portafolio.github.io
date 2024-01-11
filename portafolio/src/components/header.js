@@ -48,10 +48,10 @@ function header() {
             </div>
             <img src={imageIcon} style={{height: '45px', marginTop: '3px', borderRadius: '100%'}} alt='' />
             <ul style={{ display: 'flex', flexDirection: 'row', listStyleType: 'none', padding: 0, justifyContent: 'end' }}>
-                <li style={{marginRight: '35px', color: '#2d2d2c', marginTop: '-3px'}}><b>Inicio</b></li>
-                <li style={{marginRight: '35px', color: '#2d2d2c', marginTop: '-3px'}}><b>Sobre mí</b></li>
-                <li style={{marginRight: '35px', color: '#2d2d2c', marginTop: '-3px'}}><b>Portafolio</b></li>
-                <li style={{marginRight: '100px', color: '#2d2d2c', marginTop: '-3px'}}><b>Contacto</b></li>
+                <li style={{marginRight: '35px', color: '#2d2d2c', marginTop: '10px'}}><b>Inicio</b></li>
+                <li style={{marginRight: '35px', color: '#2d2d2c', marginTop: '10px'}}><b>Sobre mí</b></li>
+                <li style={{marginRight: '35px', color: '#2d2d2c', marginTop: '10px'}}><b>Portafolio</b></li>
+                <li style={{marginRight: '100px', color: '#2d2d2c', marginTop: '10px'}}><b>Contacto</b></li>
             </ul>
         </div>
         <img src={degradado} alt='' style={{width: '100%', marginTop: '12px',marginBottom: '15px'}} />
@@ -114,7 +114,7 @@ function header() {
             </div>
         </div>
 
-        <div class="card" style={{width: '18rem'}}>
+        <div class="card" style={{width: '18rem', marginRight: '100px'}}>
             <div class="card-body">
                 <h5 class="card-title">Facturando</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary">Un solo rol</h6>
@@ -122,31 +122,42 @@ function header() {
                 <button type="button" class="btn btn-light" onClick={redirectToGitFacturando}>Ver proyecto</button>
             </div>
         </div>
+
+        <div class="card" style={{width: '18rem', marginRight: '100px', background: '#292928', color: 'white'}}>
+            <div class="card-body" style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+                <h6 class="card-subtitle mb-2" style={{color: 'white'}}>Para ver más proyectos de aplicaciones móviles puedes visitar mi perfil de GitHub...</h6>
+                <button type="button" class="btn btn-dark" style={{backgroundColor: '#434343'}} onClick={redirectToGitSocio}>Ver perfil...</button>
+            </div>
+        </div>
         </div>
         </div>
         <div style={{widht: '50%', padding: '75px', paddingTop: '0px'}}>
-
-                    <h4 class="card-title" style={{marginTop: '0px', marginBottom: '20px'}}><span style={{background: '#009fe5', color: '#fff', borderRadius: '50%', display: 'inline-block', textAlign: 'center', width: '35px', height: '35px', padding: '2px', boxShadow: '0 0 6px 0 rgba(0, 0, 0, .5)', marginRight: '15px', alignItems: 'center', fontSize: '16px', paddingTop: '7px'}}>1.2</span>Sistemas web</h4>
-
-<div style={{display: 'flex', flexDirection: 'row'}}>
-        <div class="card" style={{width: '18rem', marginRight: '100px', background: '#292928', color: 'white'}}>
-            <div class="card-body">
-                <h5 class="card-title">MANGIONA</h5>
-                <h6 class="card-subtitle mb-2" style={{color: 'white'}}>Un solo rol</h6>
-                <p class="card-text">Sistema web que gestiona pedidos de pizzas.</p>
-                <button type="button" class="btn btn-dark" style={{backgroundColor: '#434343'}} onClick={redirectToGitMangiona}>Ver proyecto</button>
+            <h4 class="card-title" style={{marginTop: '0px', marginBottom: '20px'}}><span style={{background: '#009fe5', color: '#fff', borderRadius: '50%', display: 'inline-block', textAlign: 'center', width: '35px', height: '35px', padding: '2px', boxShadow: '0 0 6px 0 rgba(0, 0, 0, .5)', marginRight: '15px', alignItems: 'center', fontSize: '16px', paddingTop: '7px'}}>1.2</span>Sistemas web</h4>
+            <div style={{display: 'flex', flexDirection: 'row'}}>
+                <div class="card" style={{width: '18rem', marginRight: '100px', background: '#292928', color: 'white'}}>
+                    <div class="card-body">
+                        <h5 class="card-title">MANGIONA</h5>
+                        <h6 class="card-subtitle mb-2" style={{color: 'white'}}>Un solo rol</h6>
+                        <p class="card-text">Sistema web que gestiona pedidos de pizzas.</p>
+                        <button type="button" class="btn btn-dark" style={{backgroundColor: '#434343'}} onClick={redirectToGitMangiona}>Ver proyecto</button>
+                    </div>
+                </div>
+                <div class="card" style={{width: '18rem', marginRight: '100px'}}>
+                    <div class="card-body">
+                        <h5 class="card-title">Tablas de amortización</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Un solo rol</h6>
+                        <p class="card-text">Sistema web que simula tablas de amortización para los distintos créditos.</p>
+                        <button type="button" class="btn btn-light" onClick={redirectToGitTabla}>Ver proyecto</button>
+                    </div>
+                </div>  
+                <div class="card" style={{width: '18rem', marginRight: '100px', background: '#292928', color: 'white'}}>
+            <div class="card-body" style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+                <h6 class="card-subtitle mb-2" style={{color: 'white'}}>Para ver más proyectos de sistemas web puedes visitar mi perfil de GitHub...</h6>
+                <button type="button" class="btn btn-dark" style={{backgroundColor: '#434343'}} onClick={redirectToGitSocio}>Ver perfil...</button>
             </div>
         </div>
-        <div class="card" style={{width: '18rem'}}>
-            <div class="card-body">
-                <h5 class="card-title">Tablas de amortización</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Un solo rol</h6>
-                <p class="card-text">Sistema web que simula tablas de amortización para los distintos créditos.</p>
-                <button type="button" class="btn btn-light" onClick={redirectToGitTabla}>Ver proyecto</button>
             </div>
-        </div>  
         </div>
-</div>
         </div>
 
         <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{margin: '75px', marginTop: '0px'}}>
