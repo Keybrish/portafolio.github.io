@@ -91,18 +91,22 @@ function header() {
         </div>
 
         <h4 class="card-title" style={{display: 'flex', justifyContent: 'center'}}>Portafolio</h4>
-        Entre los proyectos que considero que destacan mejor mis habilidades están:
-        Aplicaciones móviles:
+        <div style={{ textAlign: 'center' }}>
+        <p style={{margin: 'auto', width: '20%'}}>Entre los proyectos que considero que destacan mejor mis habilidades están:</p>
+        </div>
+        <div style={{display: 'flex', flexDirection: 'row'}}>
+            <div style={{widht: '50%', padding: '75px'}}>
+                    <h4 class="card-title" style={{marginTop: '0px', marginBottom: '20px'}}><span style={{background: '#009fe5', color: '#fff', borderRadius: '50%', display: 'inline-block', textAlign: 'center', width: '35px', height: '35px', padding: '2px', boxShadow: '0 0 6px 0 rgba(0, 0, 0, .5)', marginRight: '15px', alignItems: 'center', fontSize: '16px', paddingTop: '7px'}}>1.1</span>Aplicaciones móviles</h4>
 
         <div style={{display: 'flex', flexDirection: 'row'}}>
 
-        <div class="card" style={{width: '18rem', marginRight: '100px'}}>
+        <div class="card" style={{width: '18rem', marginRight: '100px', background: '#292928', color: 'white'}}>
             <div class="card-body">
                 <h5 class="card-title">Safey!</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Varios roles</h6>
+                <h6 class="card-subtitle mb-2" style={{color: 'white'}}>Varios roles</h6>
                 <p class="card-text">Aplicación móvil para control de pasajeros y gestión de viejes de buses interprovinciales.</p>
-                <button type="button" class="btn btn-light" onClick={redirectToGitPasajero}>Rol pasajero</button>
-                <button type="button" class="btn btn-light" onClick={redirectToGitSocio}>Rol socio</button>
+                <button type="button" class="btn btn-dark" style={{backgroundColor: '#434343', marginRight: '10px'}} onClick={redirectToGitPasajero}>Rol pasajero</button>
+                <button type="button" class="btn btn-dark" style={{backgroundColor: '#434343'}} onClick={redirectToGitSocio}>Rol socio</button>
             </div>
         </div>
 
@@ -115,17 +119,25 @@ function header() {
             </div>
         </div>
         </div>
+        </div>
+        <div style={{widht: '50%', padding: '75px'}}>
 
-        Sistemas web:
+                    <h4 class="card-title" style={{marginTop: '0px', marginBottom: '20px'}}><span style={{background: '#009fe5', color: '#fff', borderRadius: '50%', display: 'inline-block', textAlign: 'center', width: '35px', height: '35px', padding: '2px', boxShadow: '0 0 6px 0 rgba(0, 0, 0, .5)', marginRight: '15px', alignItems: 'center', fontSize: '16px', paddingTop: '7px'}}>1.2</span>Sistemas web</h4>
 
-        <div class="card" style={{width: '18rem'}}>
+        <div class="card" style={{width: '18rem', background: '#292928', color: 'white'}}>
             <div class="card-body">
                 <h5 class="card-title">MANGIONA</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Un solo rol</h6>
+                <h6 class="card-subtitle mb-2" style={{color: 'white'}}>Un solo rol</h6>
                 <p class="card-text">Sistema web que gestiona pedidos de pizzas.</p>
-                <button type="button" class="btn btn-light" onClick={redirectToGitMangiona}>Ver proyecto</button>
+                <button type="button" class="btn btn-dark" style={{backgroundColor: '#434343'}} onClick={redirectToGitMangiona}>Ver proyecto</button>
             </div>
         </div>        
+</div>
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{margin: '75px', marginTop: '0px'}}>
+            <div class="progress-bar" style={{width: '75%', backgroundColor: '#009fe5'}}></div>
+        </div>
 
         <h2>Contacto</h2>
         Me pueden contactar a través de las siguientes redes:
