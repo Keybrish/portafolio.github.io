@@ -39,6 +39,10 @@ function header() {
         window.location.href = 'https://drive.google.com/file/d/1rLqd-GMD8Hvwv6WF5ET5x1XgkgFZWZzp/view?usp=sharing';
     };
 
+    const redirectToCertificados = () => {
+        window.location.href = 'https://drive.google.com/drive/folders/1DezOYd-zzXubJBuqJYs9BKzo2mpfxDQJ?usp=sharing';
+    };
+
     const redirectToGitHub = () => {
         window.location.href = 'https://github.com/Keybrish';
     };
@@ -105,7 +109,8 @@ function header() {
             </div>
             </div>
             <h4 class="card-title" style={{marginTop: '40px'}}><span style={{background: '#009fe5', color: '#fff', borderRadius: '50%', display: 'inline-block', textAlign: 'center', width: '35px', height: '35px', padding: '2px', boxShadow: '0 0 6px 0 rgba(0, 0, 0, .5)', marginRight: '15px', alignItems: 'center', fontSize: '16px', paddingTop: '7px'}}>1.2</span>CV</h4>
-            <button type="button" class="btn btn-light" onClick={redirectToCV} style={{background: '#292928', color: 'white', marginTop: '20px', width: '100%', height: '50px', borderRadius: '15px', letterSpacing: '3px'}}><b>Descargar</b></button>
+            <button type="button" class="btn btn-light" onClick={redirectToCV} style={{background: '#292928', color: 'white', marginTop: '20px', width: '50%', height: '50px', borderRadius: '15px', letterSpacing: '3px'}}><b>Descargar CV</b></button>
+            <button type="button" class="btn btn-light" onClick={redirectToCertificados} style={{background: '#009fe5', color: 'white', marginTop: '20px', width: '50%', height: '50px', borderRadius: '15px', letterSpacing: '3px'}}><b>Ver certificados</b></button>
             </div>
 
         </div>
