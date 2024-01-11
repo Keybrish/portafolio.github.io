@@ -52,6 +52,11 @@ function header() {
         </div>
         <img src={degradado} alt='' style={{width: '100%', marginTop: '12px',marginBottom: '15px'}} />
         <img src={image} alt='' style={{width: '100%'}} />
+
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style={{margin: '75px', marginBottom: '0px'}}>
+            <div class="progress-bar" style={{width: '25%', backgroundColor: '#009fe5'}}></div>
+        </div>
+
         <div style={{display: 'flex', flexDirection: 'row'}}>
             <div style={{width: '50%', padding: '75px'}}>
             <h4 class="card-title" style={{marginBottom: '25px'}}><span style={{background: '#009fe5', color: '#fff', borderRadius: '50%', display: 'inline-block', textAlign: 'center', width: '35px', height: '35px', padding: '2px', boxShadow: '0 0 6px 0 rgba(0, 0, 0, .5)', marginRight: '15px', alignItems: 'center', fontSize: '16px', paddingTop: '7px'}}>1</span>Sobre mí</h4>
@@ -81,7 +86,11 @@ function header() {
 
         </div>
 
-        <h4 class="card-title">Portafolio</h4>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{margin: '75px', marginTop: '0px'}}>
+            <div class="progress-bar" style={{width: '50%', backgroundColor: '#009fe5'}}></div>
+        </div>
+
+        <h4 class="card-title" style={{display: 'flex', justifyContent: 'center'}}>Portafolio</h4>
         Entre los proyectos que considero que destacan mejor mis habilidades están:
         Aplicaciones móviles:
 
